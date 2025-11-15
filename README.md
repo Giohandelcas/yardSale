@@ -1,5 +1,5 @@
 ## Yard Sale
-Este proyecto se creo con la finalidad de brindar una herramiendo a los programadores frontend para practicar los patrones de diseño y practicar con un proyecto con vistas ya diseñadas.
+Este proyecto se creo con la finalidad de brindar una herramiendo a los programadores frontend beginners para practicar los patrones de diseño y practicar con un proyecto con vistas ya diseñadas.
 
 Inicialmente solo se utilizara HTML y CSS, ten en cuenta que se esta realizando los styles directamente en el HTML para en un futuro hacer un nuevo proyecto migrandolo a React.
 
