@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <title>Login</title>
+    <style>
+        :root {
+            --white: #FFFFFF;
+            --black: #000000;
+            --very-light-pink: #c7c7c7;
+            --text-input-field: #f7f7f7;
+            --hospital-green: #ACD9B2;
+            --sm: 14px;
+            --md: 16px;
+            --lg: 18px;
+        }
+
+        .body {
+            font-family: 'Quicksand', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .login {
+            width: 100%;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+        }
+
+        .login-logo {
+            width: 150px;
+            justify-self: center;
+            margin-bottom:20px;
+            display: none;  
+        }
+
+        .login-container {
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            width: 300px;
+            padding: 32px;
+            box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            justify-items: center;
+        }
+
+        .title {
+            font-size: var(--lg);
+            margin-bottom: 28px;
+            text-align: center;
+            margin-top: 32px;
+        }
+
+        .login-form {
+            display: grid;
+            width: 100%;
+            gap: 12px;
+        }
+
+        .login-form label {
+            font-size: var(--sm);
+            font-weight: bold;
+        }
+
+        .login-form input {
+            height: 30px;
+            border: none;
+            border-radius: 5px;
+            background-color: var(--text-input-field);
+            padding: 0 16px;
+        }
+
+        .login-button {
+            background-color: var(--hospital-green);
+            border: none;
+            border-radius: 5px;
+            color: var(--white);
+            font-size: var(--md);
+            font-weight: bold;
+            height: 40px;
+            width: 100%;
+            cursor: pointer;
+            margin-top: 16px;
+        }
+
+        .forgot {
+            font-size: var(--sm);
+            color: var(--hospital-green);
+            text-decoration: none;
+            margin: 16px 0 40px 0;
+        }
+
+        .sign-buttom {
+            background-color: var(--white);
+            border: 1px solid var(--hospital-green);
+            border-radius: 5px;
+            color: var(--hospital-green);
+            font-size: var(--md);
+            font-weight: bold;
+            height: 40px;
+            width: 100%;
+            cursor: pointer;
+            margin-top: 16px;
+        }
+
+        @media (max-width: 640px) {
+            .login-logo {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login">
+        <div class="login-container">
+            <img src="./logos/logo_yard_sale.svg" alt="logo" class="login-logo">
+            <h1 class="title">Welcome</h1>
+            <form class="login-form">
+                <label for="email">Email address</label>
+                <input id="email" name="email" type="text" placeholder="Example@gmail.com" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" type="password" placeholder="***********" required>
+                <button class="login-button" type="submit">Log in</button>
+            </form>
+
+            <a href="/" class="forgot">Forgot my password</a>
+
+            <button class="sign-buttom">Sign up</button>
+        </div>
+
+    </div>
+</body>
+
+</html>
