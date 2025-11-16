@@ -6,32 +6,38 @@ Inicialmente solo se utilizara HTML y CSS, ten en cuenta que se esta realizando 
 ## Estilos iniciales
 
 ```
-:root {
- --white: #FFFFFF;
- --black: #000000;
- --very-light-pink: #c7c7c7;
- --text-input-field: #f7f7f7;
- --hospital-green: #ACD9B2;
- --sm: 14px;
- --md: 16px;
- --lg: 18px;
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2 family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+<style>
+ :root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --very-light-pink: #c7c7c7;
+  --text-input-field: #f7f7f7;
+  --hospital-green: #ACD9B2;
+  --sm: 14px;
+  --md: 16px;
+  --lg: 18px;
 }
 
-body {
- font-family: 'Quicksand', sans-serif;
- margin: 0;
- padding: 0;
+ body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
 }
+<style>
 ```
 
 ### Retos adicionales:
 * Animacion de botones botones
 * Responsive para vista en telefonos
 
-##Vista account info
+## Vista account info
 <img width="305" height="359" alt="image" src="https://github.com/user-attachments/assets/0808dfc0-d940-4713-97bd-cc0ce3a407fa" />
 
-Vista edit account info desktop
+## Vista edit account info desktop
 <img width="307" height="361" alt="image" src="https://github.com/user-attachments/assets/75e6cc44-b0a9-4f72-b7e7-008379515642" />
 
 ## vista home cards
@@ -42,10 +48,18 @@ En este nuevo módulo trabajaremos las vistas principales. Comenzamos con el HTM
 
 <img width="1237" height="615" alt="image" src="https://github.com/user-attachments/assets/454be8e6-d5ad-4016-8fc4-7855495e7466" />
 
-## Menu 
+## Menu desktop
 
 Un menú desplegable o, lista desplegable, es un elemento de control gráfico que muestra al usuario una variedad de opciones de una categoría que puede elegir para realizar una acción como una compra. Esta tiene dos estados: activa o inactiva. Cuando está inactiva, enseña un solo valor.
 
 A continuación llevaremos a cabo la estructura de lista de opciones que se desplegará del menú de navegación en la versión web de nuestro sitio.
 
 <img width="234" height="205" alt="image" src="https://github.com/user-attachments/assets/3905b258-018e-44a6-ae2c-0984ab3d480b" />
+
+## Menu mobile
+
+Es momento de crear el menú de navegación para la versión móvil o responsive de nuestra tienda virtual y esta estructura presenta tres listas con distintas opciones. Recuerda que configurar esta versión del sitio ayuda a que pueda fluir mejor en todos los tamaños de pantalla y ahorra tiempo porque no necesitas tener dos versiones de un sitio web.
+
+<img width="750" height="1448" alt="image" src="https://github.com/user-attachments/assets/9d4360cc-f705-4870-aa4d-e4381bb4c2b1" />
+
+
