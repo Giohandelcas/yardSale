@@ -31,7 +31,7 @@ Inicialmente solo se utilizara HTML y CSS, ten en cuenta que se esta realizando 
 ```
 
 ### Retos adicionales:
-* Animacion de botones botones
+* Animacion de botones
 * Responsive para vista en telefonos
 
 ## Vista account info
@@ -48,7 +48,7 @@ En este nuevo módulo trabajaremos las vistas principales. Comenzamos con el HTM
 
 <img width="1237" height="615" alt="image" src="https://github.com/user-attachments/assets/454be8e6-d5ad-4016-8fc4-7855495e7466" />
 
-## Menu desktop
+## Vista Menu desktop
 
 Un menú desplegable o, lista desplegable, es un elemento de control gráfico que muestra al usuario una variedad de opciones de una categoría que puede elegir para realizar una acción como una compra. Esta tiene dos estados: activa o inactiva. Cuando está inactiva, enseña un solo valor.
 
@@ -56,10 +56,20 @@ A continuación llevaremos a cabo la estructura de lista de opciones que se desp
 
 <img width="234" height="205" alt="image" src="https://github.com/user-attachments/assets/3905b258-018e-44a6-ae2c-0984ab3d480b" />
 
-## Menu mobile
+## Vista Menu mobile
 
 Es momento de crear el menú de navegación para la versión móvil o responsive de nuestra tienda virtual y esta estructura presenta tres listas con distintas opciones. Recuerda que configurar esta versión del sitio ayuda a que pueda fluir mejor en todos los tamaños de pantalla y ahorra tiempo porque no necesitas tener dos versiones de un sitio web.
 
 <img width="750" height="1448" alt="image" src="https://github.com/user-attachments/assets/9d4360cc-f705-4870-aa4d-e4381bb4c2b1" />
+
+## Vista my order desktop
+
+Ahora maquetaremos la pantalla llamada “my order”* cuya función es mostrar los artículos seleccionados por el usuario dentro de una tienda virtual o marketplace. Esta es la estructura que se espera que puedas crear según la vista de cada dispositivo.
+
+<img width="503" height="573" alt="image" src="https://github.com/user-attachments/assets/d9604dbb-c089-4d23-aaf3-309c48eae84c" />
+
+## Vista my order mobile
+
+<img width="750" height="898" alt="image" src="https://github.com/user-attachments/assets/515d02f8-c9bf-41bd-ac08-c9e20c40919b" />
 
 
