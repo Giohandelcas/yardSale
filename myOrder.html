@@ -25,25 +25,47 @@
             margin: 0;
             padding: 0;
         }
+
+        .title {
+            font-size: var(--lg);
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+
+        .my-order-container {
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            width: 300px;
+        }
+
+        .my-order-content {
+            display: flex;
+            flex-direction: column;
+        }
     </style>
 </head>
+
 <body>
     <div class="my-order">
         <div class="my-order-container">
-            <div class="my-order content">
-                <p>16.11.2025</p>
-                <p>6 articles</p>
-
-                <p>$560</p>
+            <h1 class="title">My orders</h1>
+            <div class="my-order-content">
+                <div class="content">
+                    <p>
+                    <span>03.25.21</span>
+                    <span>6 articles</span>
+                </p>
+                <p>$560.00</p>
+                </div>
             </div>
-        </div>
 
-        <div class="shopping-card">
-            <figure>
-                <img src="./src/bike.jpg" alt="bike">
-            </figure>
-            <p>Bike</p>
-            <p>$120,00</p>
+            <div class="shopping-card">
+                <figure>
+                    <img src="./src/bike.jpg" alt="bike">
+                </figure>
+                <p>Bike</p>
+                <p>$120,00</p>
+            </div>
         </div>
     </div>
 </body>
