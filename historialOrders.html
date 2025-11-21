@@ -32,6 +32,11 @@
             margin-bottom: 40px;
         }
 
+        .my-order {
+            display: flex;
+            justify-content: center;
+        }
+
         .my-order-container {
             display: grid;
             grid-template-rows: auto 1fr auto;
@@ -45,13 +50,10 @@
 
         .order {
             display: grid;
-            grid-template-columns: auto 1fr;
+            grid-template-columns: auto 1fr auto;
             gap: 16px;
             align-items: center;
-            background-color: var(--text-input-field);
-            margin-bottom: 24px;
-            border-radius: 8px;
-            padding: 0 24px;
+            margin-bottom: 14px;
         }
 
         .order p:nth-child(1) {
@@ -74,39 +76,13 @@
             color: var(--very-light-pink);
         }
 
-        .shopping-card {
-            display: grid;
-            grid-template-columns: auto 1fr auto;
-            gap: 16px;
-            margin-bottom: 24px;
-            align-items: center;
-        }
-
-        .shopping-card figure {
-            margin: 0;
-        }
-        .shopping-card figure img{
-            width: 70px;
-            height: 70px;
-            border-radius: 20px;
-            object-fit: cover;
-        }
-
-        .shopping-card p:nth-child(2) {
-            color: var(--very-light-pink);
-        }
-
-        .shopping-card p:nth-child(3) {
-            font-size: var(--md);
-            font-weight: bold;
-        }
     </style>
 </head>
 
 <body>
     <div class="my-order">
         <div class="my-order-container">
-            <h1 class="title">My orders</h1>
+            <h1 class="title">My orders history</h1>
             <div class="my-order-content">
                 <div class="order">
                     <p>
@@ -114,47 +90,38 @@
                     <span>6 articles</span>
                     </p>
                     <p>$560.00</p>
+                    <img src="./icons/flechita.svg" alt="Flecha de ver">
+                </div>
+
+                <div class="order">
+                    <p>
+                    <span>03.25.21</span>
+                    <span>6 articles</span>
+                    </p>
+                    <p>$560.00</p>
+                    <img src="./icons/flechita.svg" alt="Flecha de ver">
+                </div>
+
+                <div class="order">
+                    <p>
+                    <span>03.25.21</span>
+                    <span>6 articles</span>
+                    </p>
+                    <p>$560.00</p>
+                    <img src="./icons/flechita.svg" alt="Flecha de ver">
+                </div>
+
+                <div class="order">
+                    <p>
+                    <span>03.25.21</span>
+                    <span>6 articles</span>
+                    </p>
+                    <p>$560.00</p>
+                    <img src="./icons/flechita.svg" alt="Flecha de ver">
                 </div>
             </div>
 
-            <div class="shopping-card">
-                <figure>
-                    <img src="./src/bike.jpg" alt="bike">
-                </figure>
-                <p>Bike</p>
-                <p>$120,00</p>
-            </div>
 
-            <div class="shopping-card">
-                <figure>
-                    <img src="./src/bike.jpg" alt="bike">
-                </figure>
-                <p>Bike</p>
-                <p>$120,00</p>
-            </div>
-
-            <div class="shopping-card">
-                <figure>
-                    <img src="./src/bike.jpg" alt="bike">
-                </figure>
-                <p>Bike</p>
-                <p>$120,00</p>
-            </div>
-
-            <div class="shopping-card">
-                <figure>
-                    <img src="./src/bike.jpg" alt="bike">
-                </figure>
-                <p>Bike</p>
-                <p>$120,00</p>
-            </div>
-
-            <div class="shopping-card">
-                <figure>
-                    <img src="./src/bike.jpg" alt="bike">
-                </figure>
-                <p>Bike</p>
-                <p>$120,00</p>
             </div>
         </div>
     </div>
