@@ -72,4 +72,9 @@ Ahora maquetaremos la pantalla llamada “my order”* cuya función es mostrar 
 
 <img width="750" height="898" alt="image" src="https://github.com/user-attachments/assets/515d02f8-c9bf-41bd-ac08-c9e20c40919b" />
 
+## Historial de my orders
+
+Realizaremos la pantalla “my orders history”. Esta le permitirá al usuario ver todas las órdenes de pedidos que efectuó. Como puedes ver en la imagen, es similar a la vista “my order”, por lo que reutilizaremos código.
+
+<img width="457" height="415" alt="image" src="https://github.com/user-attachments/assets/7304ac01-d3ad-405a-ac6f-113e02fa1934" />
 
