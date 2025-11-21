@@ -78,3 +78,12 @@ Realizaremos la pantalla “my orders history”. Esta le permitirá al usuario 
 
 <img width="457" height="415" alt="image" src="https://github.com/user-attachments/assets/7304ac01-d3ad-405a-ac6f-113e02fa1934" />
 
+## Vista Navbar
+
+<img width="2556" height="767" alt="image" src="https://github.com/user-attachments/assets/68657d42-9ceb-4424-a251-52de2b62c0ed" />
+
+## Bonus
+
+Diseño recomendó que al lado de la dirección de email aparezca una flecha que permitirá al usuario desplegar el menú con las opciones: “my orders”, “my account” y “sing-out”.
+
+<img width="1008" height="202" alt="image" src="https://github.com/user-attachments/assets/e76f0215-c369-4c82-9868-00dfbde6b5cb" />
