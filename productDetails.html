@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <title>Product details</title>
+    <style>
+        :root {
+            --white: #FFFFFF;
+            --black: #000000;
+            --very-light-pink: #c7c7c7;
+            --text-input-field: #f7f7f7;
+            --hospital-green: #ACD9B2;
+            --sm: 14px;
+            --md: 16px;
+            --lg: 18px;
+        }
+
+        body {
+            font-family: 'Quicksand', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .primary-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background-color: var(--hospital-green);
+            border: none;
+            border-radius: 8px;
+            padding: 12px 16px;
+            color: var(--white);
+            font-size: var(--md);
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .product-detail {
+            width: 360px;
+            padding-bottom: 24px;
+            position: relative;
+        }
+
+        .product-detail-close {
+            background: var(--white);
+            height: 14px;
+            width: 14px;
+            position: absolute;
+            top: 24px;
+            left: 24px;
+            z-index: 2;
+            padding: 12px;
+            border-radius: 50px;
+        }
+
+        .product-detail-close:hover {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <aside class="product-detail">
+        <div class="product-detail-close">
+            <img src="./icons/icon_close.png" alt="close">
+        </div>
+        <img src="./src/bike.jpg" alt="bike">
+
+        <div class="product-info">
+            <p>$120,00</p>
+            <p>Bike</p>
+            <p>With its practical position, this bike also fulfills a decorative function, adding to your room's style.</p>
+            <button class="primary-button">
+                <img src="./icons/bt_add_to_cart.svg" alt="add to cart">
+                Add to cart
+            </button>
+        </div>
+    </aside>
+</body>
+</html>
