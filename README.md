@@ -101,3 +101,12 @@ Llegó el momento de maquetar el detalle de los productos, es decir, el componen
 
 ## Product details vista mobile
 <img width="747" height="1407" alt="image" src="https://github.com/user-attachments/assets/5f697717-22e2-4637-acc9-d766e8f54788" />
+
+## Carrito de compra
+
+El carrito de compras es la sección de la página que le permitirá al usuario ver los productos que agregó porque quiere comprarlos. Como puedes ver en la imagen, es una vista muy similar a sección "mi orden", por lo que utilizaremos el mismo código.
+
+Solo nos falta elaborar nuestra pantalla del carrito para terminar nuestra página. Como se mencionó, es un proceso muy similar a los anteriores y podemos reutilizar el código de "my orders" .
+
+<img width="750" height="1493" alt="image" src="https://github.com/user-attachments/assets/8275c309-3372-4ebe-b1d2-98d37a74fed3" />
+
