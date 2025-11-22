@@ -91,3 +91,13 @@ Realizaremos la pantalla “my orders history”. Esta le permitirá al usuario 
 Diseño recomendó que al lado de la dirección de email aparezca una flecha que permitirá al usuario desplegar el menú con las opciones: “my orders”, “my account” y “sing-out”.
 
 <img width="1008" height="202" alt="image" src="https://github.com/user-attachments/assets/e76f0215-c369-4c82-9868-00dfbde6b5cb" />
+
+## Product details
+
+Llegó el momento de maquetar el detalle de los productos, es decir, el componente que le permite al usuario obtener más información acerca de un artículo que se representa con texto. Esta pantalla es la misma en todos los dispositivos. Contiene una imagen, texto y un botón.
+
+## Product details Vista desktop
+<img width="858" height="743" alt="image" src="https://github.com/user-attachments/assets/995ce9ef-98fe-4bb4-952e-6969280f6846" />
+
+## Product details vista mobile
+<img width="747" height="1407" alt="image" src="https://github.com/user-attachments/assets/5f697717-22e2-4637-acc9-d766e8f54788" />
