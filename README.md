@@ -78,9 +78,13 @@ Realizaremos la pantalla “my orders history”. Esta le permitirá al usuario 
 
 <img width="457" height="415" alt="image" src="https://github.com/user-attachments/assets/7304ac01-d3ad-405a-ac6f-113e02fa1934" />
 
-## Vista Navbar
+## Vista Navbar desktop
 
 <img width="2556" height="767" alt="image" src="https://github.com/user-attachments/assets/68657d42-9ceb-4424-a251-52de2b62c0ed" />
+
+## Vista Navbar mobile
+
+<img width="496" height="157" alt="image" src="https://github.com/user-attachments/assets/1b8291e5-eeee-4f85-82c9-0c60fe08a7fa" />
 
 ## Bonus
 
